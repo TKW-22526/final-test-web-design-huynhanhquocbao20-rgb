@@ -1,0 +1,12 @@
+.logo img{
+    width: 80px;
+    height: auto;
+    display: block;
+}
+.category img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    object-position:center 100%;
+    border-radius:50%;
+}
