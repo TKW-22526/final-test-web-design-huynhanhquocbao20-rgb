@@ -10,3 +10,274 @@
     object-position:center 100%;
     border-radius:50%;
 }
+.category-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.category-box img{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.category-box h5{
+    margin-top:15px;
+    font-size:30px;
+    font-weight:500;
+}
+.category-box{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.category-box:hover{
+    transform:translateY(-8px);
+}
+
+.category-box img{
+    transition:0.3s;
+}
+
+.category-box:hover img{
+    transform:scale(1.08);
+}
+.category-box:active{
+    transform:scale(0.95);
+}
+.category-box{
+    cursor:pointer;
+    border-radius:15px;
+    padding:15px;
+    transition:all .3s;
+}
+
+.category-box.active{
+    background:#198754;
+    color:#fff;
+    box-shadow:0 8px 20px rgba(25,135,84,.35);
+}
+
+.category-box.active h5{
+    color:#fff;
+}
+body{
+    font-family: "Times New Roman", Times, serif;
+    background:#EEF6FF;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color:#1b4332;
+}
+
+.book-title{
+    font-family: "Times New Roman", Times, serif;
+    font-size:22px;
+    font-weight:bold;
+    color:#2d3436;
+}
+
+.text-muted{
+    font-size:17px;
+}
+
+.text-danger{
+    color:#d62828 !important;
+    font-size:22px;
+    font-weight:bold;
+}
+h2{
+    color:#1e3a8a;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+.book-title{
+    color:#1f2937;
+    font-weight:600;
+    transition:.3s;
+}
+
+.book-title:hover{
+    color:#2563eb;
+}
+.text-danger{
+    color:#dc2626 !important;
+    font-size:22px;
+    font-weight:700;
+}
+.text-muted{
+    color:#6b7280 !important;
+    font-size:15px;
+}
+.book-card{
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.35s;
+}
+
+.book-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+.btn-success{
+
+    background:#16a34a;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-success:hover{
+
+    background:#15803d;
+
+    transform:scale(1.03);
+
+}
+.btn-outline-success{
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+.navbar{
+
+    background:linear-gradient(90deg,#1e3a8a,#2563eb);
+
+}
+
+.navbar a{
+
+    color:white !important;
+
+    font-weight:500;
+
+}
+
+.navbar a:hover{
+
+    color:#fde68a !important;
+
+}
+.category-box{
+
+    border-radius:20px;
+
+    transition:.35s;
+
+    padding:15px;
+
+}
+
+.category-box:hover{
+
+    background:white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.category-box h5{
+
+    color:#1e293b;
+
+    font-weight:600;
+
+}
+footer{
+
+    background:#1e293b;
+
+    color:white;
+
+}
+
+footer a{
+
+    color:#cbd5e1;
+
+}
+
+footer a:hover{
+
+    color:#38bdf8;
+
+}
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+section{
+    background:#F5F7FA;
+}
+.navbar.bg-success{
+    background:linear-gradient(90deg,#1e3a8a,#2563eb) !important;
+}
+/* Header */
+.top-header{
+    background:#ffffff;
+}
+
+/* Banner */
+.banner{
+    background:linear-gradient(135deg,#EEF5FF,#DDEBFF);
+    padding:60px 0;
+}
+
+/* Danh mục */
+.category{
+    background:#F8FAFC;
+}
+
+/* Sách nổi bật */
+.featured-book{
+    background:#ffffff;
+}
+
+/* Sách mới */
+.new-book{
+    background:#F5F7FA;
+}
+
+/* Dịch vụ */
+.service{
+    background:#ffffff;
+}
+.header-action button{
+    white-space: nowrap;
+}
+
+.top-header button{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+.navbar-nav .nav-link{
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 10px 18px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #FFD54F !important;
+}
+.top-header .btn-success{
+    padding: 8px 18px;
+    white-space: nowrap;
+}

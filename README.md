@@ -175,10 +175,10 @@ Sinh viên cần nộp đầy đủ các nội dung sau:
 Sinh viên cập nhật thông tin cá nhân tại đây:
 
 ```text
-Họ và tên:
-Mã số sinh viên:
-Lớp:
-Tên đề tài:
-Liên kết GitHub repository:
+Họ và tên: Huỳnh Anh Quốc Bảo
+Mã số sinh viên: 110125013
+Lớp: DA25TTB
+Tên đề tài: THIẾT KẾ WEBSITE BÁN SÁCH
+Liên kết GitHub repository: https://github.com/TKW-22526/final-test-web-design-huynhanhquocbao20-rgb.git
 Liên kết GitHub Pages:
 ```
