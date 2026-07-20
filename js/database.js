@@ -167,7 +167,7 @@ const Sach = [
         HinhAnh: "nhagiakim.jpg",
         MaTG: 2,
         MaDM: 1,
-        NhaXB: "NXB Hội Nhà Văn",
+        NhaXB: "Hội Nhà Văn",
         NamXB: 1988,
         SoLuong: 23
     },
@@ -180,7 +180,7 @@ const Sach = [
         HinhAnh: "chaytronmattroi.jpg",
         MaTG: 3,
         MaDM: 1,
-        NhaXB: "NXB Thanh Niên",
+        NhaXB: "Thanh Niên",
         NamXB: 2017,
         SoLuong: 15
     },
@@ -206,7 +206,7 @@ const Sach = [
         HinhAnh: "matbiec.jpg",
         MaTG: 5,
         MaDM: 2,
-        NhaXB: "NXB Trẻ",
+        NhaXB: "Trẻ",
         NamXB: 1990,
         SoLuong: 30
     },
@@ -219,7 +219,7 @@ const Sach = [
         HinhAnh: "kinhte1.jpg",
         MaTG: 6,
         MaDM: 3,
-        NhaXB: "NXB thế giới",
+        NhaXB: "thế giới",
         NamXB: 2010,
         SoLuong: 14
     },
@@ -232,7 +232,7 @@ const Sach = [
         HinhAnh: "kinhte2.jpg",
         MaTG: 7,
         MaDM: 4,
-        NhaXB: "NXB Đại học Kinh tế Quốc dân",
+        NhaXB: "Đại học Kinh tế Quốc dân",
         NamXB: 2022,
         SoLuong: 25
     },
@@ -245,7 +245,7 @@ const Sach = [
         HinhAnh: "kynang2.jpg",
         MaTG: 9,
         MaDM: 3,
-        NhaXB: "NXB Văn Hóa Thông Tin",
+        NhaXB: "Văn Hóa Thông Tin",
         NamXB: 2012,
         SoLuong: 30
     },
@@ -258,7 +258,7 @@ const Sach = [
         HinhAnh: "tuoitre.jpg",
         MaTG: 8,
         MaDM: 2,
-        NhaXB: "NXB Hội Nhà Văn",
+        NhaXB: "Hội Nhà Văn",
         NamXB: 2022,
         SoLuong: 18
     },
@@ -271,7 +271,7 @@ const Sach = [
         HinhAnh: "kynang3.jpg",
         MaTG: 2,
         MaDM: 1,
-        NhaXB: "NXB Văn Học",
+        NhaXB: "Văn Học",
         NamXB: 2023,
         SoLuong: 16
     },
@@ -284,7 +284,7 @@ const Sach = [
         HinhAnh: "dacnhantam.jpg",
         MaTG: 1,
         MaDM: 1,
-        NhaXB: "NXB Trẻ",
+        NhaXB: "Trẻ",
         NamXB: 1936,
         SoLuong: 12
     },
@@ -296,7 +296,7 @@ const Sach = [
         HinhAnh: "kynang1.jpg",
         MaTG: 11,
         MaDM: 2,
-        NhaXB: "NXB Thế Giới",
+        NhaXB: "Thế Giới",
         NamXB: 2020,
         SoLuong: 29
     },
@@ -311,7 +311,7 @@ const Sach = [
         HinhAnh: "nhansinh.jpg",
         MaTG: 13,
         MaDM: 1,
-        NhaXB: "NXB Văn Học",
+        NhaXB: "Văn Học",
         NamXB: 2020,
         SoLuong: 7
     },
@@ -335,7 +335,7 @@ const Sach = [
         HinhAnh: "congnghe.jpg",
         MaTG: 15,
         MaDM: 4,
-        NhaXB: "NXB Kỹ Thuật Và Công Nghệ",
+        NhaXB: "Kỹ Thuật Và Công Nghệ",
         NamXB: 2021,
         SoLuong: 4
     },
@@ -347,7 +347,7 @@ const Sach = [
         HinhAnh: "congnghe1.jpg",
         MaTG: 16,
         MaDM: 4,
-        NhaXB: "NXB Giáo Dục Việt Nam",
+        NhaXB: "Giáo Dục Việt Nam",
         NamXB: 2009,
         SoLuong: 9
     },
@@ -359,7 +359,7 @@ const Sach = [
         HinhAnh: "congnghe2.jpg",
         MaTG: 17,
         MaDM: 4,
-        NhaXB: "NXB Giáo Dục Việt Nam",
+        NhaXB: "Giáo Dục Việt Nam",
         NamXB: 2005,
         SoLuong: 19
     },
@@ -371,7 +371,7 @@ const Sach = [
         HinhAnh: "congnghe3.jpg",
         MaTG: 18,
         MaDM: 4,
-        NhaXB: "NXB Lao động – Xã hội",
+        NhaXB: "Lao động – Xã hội",
         NamXB: 2008,
         SoLuong: 20
     },
@@ -395,7 +395,7 @@ const Sach = [
         HinhAnh: "congnghe4.jpg",
         MaTG: 20,
         MaDM: 4,
-        NhaXB: "NXB Văn Học",
+        NhaXB: "Văn Học",
         NamXB: 2017,
         SoLuong: 25
     },
@@ -407,7 +407,7 @@ const Sach = [
         HinhAnh: "kinhte3.jpg",
         MaTG: 21,
         MaDM: 3,
-        NhaXB: "NXB Dân Trí",
+        NhaXB: "Dân Trí",
         NamXB: 2024,
         SoLuong: 24
     },
@@ -419,7 +419,7 @@ const Sach = [
         HinhAnh: "kinhte4.jpg",
         MaTG: 22,
         MaDM: 3,
-        NhaXB: "NXB Hà Nội",
+        NhaXB: "Hà Nội",
         NamXB: 2017,
         SoLuong: 13
     },
@@ -431,7 +431,7 @@ const Sach = [
         HinhAnh: "vanhoc3.jpg",
         MaTG: 23,
         MaDM: 1,
-        NhaXB: "NXB Trẻ",
+        NhaXB: "Trẻ",
         NamXB: 2005,
         SoLuong: 11
     },
@@ -443,7 +443,7 @@ const Sach = [
         HinhAnh: "vanhoc4.jpg",
         MaTG: 24,
         MaDM: 1,
-        NhaXB: "NXB Hà Nội",
+        NhaXB: "Hà Nội",
         NamXB: 1997,
         SoLuong: 11
     },

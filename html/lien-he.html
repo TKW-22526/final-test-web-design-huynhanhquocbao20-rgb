@@ -39,7 +39,7 @@
 
             <!-- Logo -->
 
-            <div class="col-lg-3">
+            <div class="col-lg-2">
 
                 <a href="../index.html" class="logo text-decoration-none">
 
@@ -53,7 +53,7 @@
 
             <!-- Menu -->
 
-            <div class="col-lg-3 text-center">
+            <div class="col-lg-6 text-center">
 
                 <a href="../index.html"
                    class="btn btn-outline-success me-2">
@@ -62,13 +62,9 @@
 
             </a>
             </div>
-
             <!-- Tài khoản + Giỏ -->
 
-            <!-- Tài khoản + Giỏ -->
-
-<div class="col-lg-2 d-flex justify-content-end gap-2">
-
+<div class="col-lg-4 d-flex justify-content-end align-items-center gap-2 header-action">
     <button
         class="btn btn-outline-success"
         data-bs-toggle="modal"
@@ -95,7 +91,7 @@
         data-bs-target="#cartCanvas">
 
         <i class="bi bi-cart3"></i>
-        Giỏ
+        Giỏ Hàng
 
     </button>
 
@@ -105,19 +101,17 @@
 
 <!--================ TIÊU ĐỀ =================-->
 
-<section class="bg-light py-5">
+<!--================ BANNER =================-->
+
+<section class="contact-banner">
 
     <div class="container text-center">
 
-        <h2>
-
-            Liên hệ với BookStore
-
-        </h2>
+        <h1>Liên hệ BookStore</h1>
 
         <p>
 
-            Nếu bạn có thắc mắc hoặc góp ý, hãy gửi thông tin cho chúng tôi.
+            Chúng tôi luôn sẵn sàng lắng nghe mọi ý kiến và phản hồi từ bạn.
 
         </p>
 
@@ -127,99 +121,109 @@
 
 <!--================ FORM =================-->
 
-<section class="py-5 flex-grow-1">
+<section class="contact-section">
 
     <div class="container">
 
-        <div class="row justify-content-center">
+        <div class="row g-5">
 
-            <div class="col-lg-8">
+            <!-- Thông tin -->
 
-                <div class="card shadow">
+            <div class="col-lg-5">
 
-                    <div class="card-body">
+                <div class="contact-info">
 
-                        <h3 class="text-center mb-4">
+                    <h3>Thông tin liên hệ</h3>
+
+                    <p>
+                        Nếu có bất kỳ câu hỏi nào về sản phẩm hoặc dịch vụ,
+                        hãy liên hệ với BookStore.
+                    </p>
+
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Trà Vinh, Việt Nam
+                    </div>
+
+                    <div class="info-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        huynhanhquocbao20@gmail.com
+                    </div>
+
+                    <div class="info-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        0353034240
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Form -->
+
+            <div class="col-lg-7">
+
+                <div class="contact-form">
+
+                    <h3 class="mb-4">
+
+                        Gửi liên hệ
+
+                    </h3>
+
+                    <form id="contactForm">
+
+                        <div class="mb-3">
+
+                            <label>Họ và tên</label>
+
+                            <input
+                                type="text"
+                                id="hoTen"
+                                class="form-control"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label>Vai trò</label>
+
+                            <select
+                                id="vaiTro"
+                                class="form-select">
+
+                                <option>Khách hàng</option>
+                                <option>Sinh viên</option>
+                                <option>Giảng viên</option>
+                                <option>Khác</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label>Nội dung</label>
+
+                            <textarea
+                                rows="6"
+                                id="loiNhan"
+                                class="form-control"
+                                required></textarea>
+
+                        </div>
+
+                        <button
+                            class="btn btn-success w-100">
+
+                            <i class="bi bi-send-fill"></i>
 
                             Gửi liên hệ
 
-                        </h3>
+                        </button>
 
-                        <form id="contactForm">
-
-                            <div class="mb-3">
-
-                                <label class="form-label">
-
-                                    Họ và tên
-
-                                </label>
-
-                                <input
-                                    type="text"
-                                    id="hoTen"
-                                    class="form-control"
-                                    required>
-
-                            </div>
-
-                            <div class="mb-3">
-
-                                <label class="form-label">
-
-                                    Vai trò
-
-                                </label>
-
-                                <select
-                                    id="vaiTro"
-                                    class="form-select">
-
-                                    <option>Khách hàng</option>
-
-                                    <option>Sinh viên</option>
-
-                                    <option>Giảng viên</option>
-
-                                    <option>Khác</option>
-
-                                </select>
-
-                            </div>
-
-                            <div class="mb-3">
-
-                                <label class="form-label">
-
-                                    Nội dung
-
-                                </label>
-
-                                <textarea
-                                    id="loiNhan"
-                                    rows="5"
-                                    class="form-control"
-                                    required></textarea>
-
-                            </div>
-
-                            <div class="d-grid">
-
-                                <button
-                                    type="submit"
-                                    class="btn btn-success">
-
-                                    <i class="bi bi-send-fill"></i>
-
-                                    Gửi liên hệ
-
-                                </button>
-
-                            </div>
-
-                        </form>
-
-                    </div>
+                    </form>
 
                 </div>
 
