@@ -180,5 +180,5 @@ Mã số sinh viên: 110125013
 Lớp: DA25TTB
 Tên đề tài: THIẾT KẾ WEBSITE BÁN SÁCH
 Liên kết GitHub repository: https://github.com/TKW-22526/final-test-web-design-huynhanhquocbao20-rgb.git
-Liên kết GitHub Pages:
+Liên kết GitHub Pages: https://tkw-22526.github.io/final-test-web-design-huynhanhquocbao20-rgb/
 ```
