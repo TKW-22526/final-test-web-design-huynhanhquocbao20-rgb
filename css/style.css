@@ -808,3 +808,10 @@ input.form-control{
     background:linear-gradient(90deg,#FF8FB1,#FFA7C4);
     color:#fff;
 }
+#cartItems img{
+    width: 90px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
