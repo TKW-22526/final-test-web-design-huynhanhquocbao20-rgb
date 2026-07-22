@@ -68,7 +68,7 @@ function hienThiGioHang() {
         cartItems.innerHTML += `
             <div class="d-flex align-items-center mb-3">
 
-                <img src="../assets/images/book/${item.HinhAnh}"
+                <img src="assets/images/book/${item.HinhAnh}"
                      width="60"
                      class="rounded me-3">
 
